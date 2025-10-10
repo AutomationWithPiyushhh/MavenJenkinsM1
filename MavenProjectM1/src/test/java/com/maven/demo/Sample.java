@@ -2,7 +2,7 @@ package com.maven.demo;
 
 import org.testng.annotations.Test;
 
-public class SampleTest {
+public class Sample {
 	@Test
 	public void case1() {
 		String BROWSER = System.getProperty("bro");
