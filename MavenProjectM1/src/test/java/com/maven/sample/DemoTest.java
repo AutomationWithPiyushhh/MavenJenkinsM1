@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 public class DemoTest {
 	@Test
 	public void case2() {
-		System.out.println("This is case2 from DemoTest of sample.");
+		String name = System.getProperty("name");
+		System.out.println("Hey " + name + " this is case2 from DemoTest of sample...");
 	}
 }
