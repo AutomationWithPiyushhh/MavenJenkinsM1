@@ -9,7 +9,7 @@ public class Demo4Test {
 	@Test
 	public void case4() throws InterruptedException {
 		System.setProperty("webdriver.edge.driver", "./resources/msedgedriver.exe");
-		WebDriver driver = new EdgeDriver();
+		WebDriver driver = new ChromeDriver();
 		System.out.println("Demo4Test");
 		Thread.sleep(10000);
 		driver.quit();
