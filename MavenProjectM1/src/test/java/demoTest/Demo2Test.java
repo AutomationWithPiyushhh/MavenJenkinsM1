@@ -9,7 +9,7 @@ public class Demo2Test {
 	public void case2() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		System.out.println("Demo2Test");
-		Thread.sleep(10000);
+		Thread.sleep(3000);
 		driver.quit();
 	}
 }
